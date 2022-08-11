@@ -2,7 +2,7 @@
 
 In this Github repo is our codebase for our baked goods, including cakes and cookies! Feel free to browse and enjoy the sweets!
 
-Feel free to check it out on Heroku: https://baked-by-fullstack.herokuapp.com/
+Check it out on Heroku: https://baked-by-fullstack.herokuapp.com/
 
 1. If you clone our repo, remember to open the directory in your terminal and run:
 ```
@@ -37,6 +37,7 @@ Technologies Used Include:
 - Express
 - Sequelize
 - PostgreSQL
+- Heroku
 
 # Team Members
 - [Amy Wong](https://github.com/amyawong)

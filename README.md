@@ -1,10 +1,9 @@
 # Welcome to Baked By Fullstack!
 
-In this Github repo are the changes I will be making to our group project (https://github.com/mscherryxu/baked). 
+In this Github repo are the changes I will be making to our group project. This is what we did so far: https://github.com/2206-fsa-gs-team-gemini/baked
 
 As the project was not complete, we agreed to add our own changes we would want by forking it and making changes in our own repo.
 
- 
 ## Enjoy the baked goods, including cakes and cookies! Feel free to browse and enjoy the sweets!
 
 Check it out on Heroku: https://baked-byfullstack.herokuapp.com/

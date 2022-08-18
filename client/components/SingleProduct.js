@@ -34,15 +34,12 @@ class SingleProduct extends Component {
                 <img src={product.imageURL} className="s-product-img" />
               </div>
               <div className="s-product-main-description">
-                {/* <p className="s-product-detail-name">{product.name}</p> */}
                 <p className="s-product-detail-price">
                   ${parseFloat(product.price / 100).toFixed(2)}
                 </p>
                 <p className="s-product-detail-description">
                   {product.description}
                 </p>
-                {/* <p className="s-product-detail description">In Stock: {inventory}</p> */}
-
                 <button
                   className="add-to-cart-btn"
                   onClick={() => this.handleAdd()}
@@ -57,7 +54,6 @@ class SingleProduct extends Component {
           </div>
         ) : (
           <div>
-            {/* <img src={'https://images.unsplash.com/photo-1617108862436-b4678494f439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'} /> */}
             <p style={{ textAlign: 'center' }}>
               We're not done baking that yet
             </p>

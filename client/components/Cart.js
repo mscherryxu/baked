@@ -55,9 +55,8 @@ class Cart extends Component {
               {this.props.cart !== null && this.props.cart.products ? (
                 this.props.cart.products.map((product) => (
                   <div key={product.id} className="checkout-card-row">
+                    <img className="cart-images" src={product.imageURL} />
                     <div className="subtotal-inline-block">{product.name}</div>
-                    <img src={product.imageUrl} />{' '}
-                    {/* Change to imageURL to see image*/}
                     <div className="quantity-section">
                       <button
                         className="increment-btn"

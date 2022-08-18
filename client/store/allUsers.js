@@ -1,11 +1,11 @@
-import axios from "axios";
-import { me } from './auth'
+import axios from 'axios';
+import { me } from './auth';
 
-// Action type
+// ACTION TYPE
 const CREATE_USER = 'CREATE_USER';
 const SET_USERS = 'SET_USERS';
 
-// Action creators
+// ACTION CREATORS
 export const _createUser = (user) => {
   return {
     type: CREATE_USER,
@@ -20,14 +20,13 @@ export const _setUsers = (users) => {
   };
 };
 
-
-// Thunks
+// THUNKS
 export const createUser = (user, history) => {
   return async (dispatch) => {
     const { data: token } = await axios.post('/api/users', user);
     window.localStorage.setItem('token', token);
     dispatch(_createUser(user));
-    dispatch(me())
+    dispatch(me());
     history.push('/');
   };
 };
@@ -44,7 +43,7 @@ export const fetchUsers = () => {
         });
         await dispatch(_setUsers(data));
       } else {
-        console.log('Bad token 2')
+        console.log('Bad token 2');
       }
     } catch (err) {
       console.log(err);

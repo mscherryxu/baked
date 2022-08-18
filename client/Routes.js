@@ -38,7 +38,6 @@ class Routes extends Component {
                 <Route exact path="/admin" component={Admin} />
                 <Route exact path="/admin/users" component={AdminUsers} />
                 <Route exact path="/admin/products" component={AdminShop} />
-                {/* <Route exact path="/products" component={Shop} /> */}
                 <Route path="/products/add" component={CreateProduct} />
                 <Route
                   exact
@@ -90,7 +89,7 @@ class Routes extends Component {
 /**
  * CONTAINER
  */
-const mapState = (state) => {
+const mapStateToProps = (state) => {
   return {
     // Being 'logged in' for our purposes will be defined has having a state.auth that has a truthy id.
     // Otherwise, state.auth will be an empty object, and state.auth.id will be falsey
@@ -99,7 +98,7 @@ const mapState = (state) => {
   };
 };
 
-const mapDispatch = (dispatch) => {
+const mapDispatchToProps = (dispatch) => {
   return {
     loadInitialData() {
       dispatch(me());
@@ -109,4 +108,4 @@ const mapDispatch = (dispatch) => {
 
 // The `withRouter` wrapper makes sure that updates are not blocked
 // when the url changes
-export default withRouter(connect(mapState, mapDispatch)(Routes));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Routes));

@@ -1,10 +1,14 @@
 # Welcome to Baked By Fullstack!
 
-In this Github repo is our codebase for our baked goods, including cakes and cookies! Feel free to browse and enjoy the sweets!
+In this Github repo are the changes I will be making to our group project. This is what we did so far: https://github.com/2206-fsa-gs-team-gemini/baked
 
-Check it out on Heroku: https://baked-by-fullstack.herokuapp.com/
+As the project was not complete, we agreed to add our own changes we would want by forking it and making changes in our own repo.
 
-1. If you clone our repo, remember to open the directory in your terminal and run:
+## Enjoy the baked goods, including cakes and cookies! Feel free to browse and enjoy the sweets!
+
+Check it out on Heroku: https://baked-byfullstack.herokuapp.com/
+
+1. If you clone the repo, remember to open the directory in your terminal and run:
 ```
 npm install
 ```
@@ -14,7 +18,7 @@ npm install
 createdb grace-shopper
 ```
 
-3. Seed our data with:
+3. Seed the data with:
 ```
 npm run seed
 ```
@@ -24,7 +28,7 @@ npm run seed
 npm run start:dev
 ```
 
-5. Enter in your browser search bar: `localhost:8080` and welcome to our homepage!
+5. Enter in your browser search bar: `localhost:8080` and welcome to the homepage!
 
 
 Technologies Used Include:

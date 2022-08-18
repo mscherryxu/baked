@@ -1,4 +1,4 @@
-# Welcome to Baked By Fullstack!
+# Welcome to Baked by Fullstack!
 
 In this Github repo are the changes I will be making to our group project. This is what we did so far: https://github.com/2206-fsa-gs-team-gemini/baked
 

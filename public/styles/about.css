@@ -1,15 +1,17 @@
 .about {
+  display: flex;
+  flex-direction: column;
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 2.5vh;
-  margin: 0 auto;
 }
 
 .about-p {
-  text-align: center;
-  width: 65%;
+  text-align: left;
+  margin: 3rem 4rem;
 }
 
 .about-image {
-  text-align: center;
-  width: 50%;
+  width: 35%;
+  align-self: center;
+  border-radius: 25%;
 }

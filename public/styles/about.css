@@ -1,0 +1,15 @@
+.about {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 2.5vh;
+  margin: 0 auto;
+}
+
+.about-p {
+  text-align: center;
+  width: 65%;
+}
+
+.about-image {
+  text-align: center;
+  width: 50%;
+}

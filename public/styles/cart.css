@@ -84,12 +84,6 @@
   text-align: center;
 }
 
-.cart-images {
-  width: 10%;
-  height: 10%;
-  border-radius: 25px;
-}
-
 .quantity-section {
   display: flex;
   flex-direction: row;

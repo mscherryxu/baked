@@ -32,6 +32,7 @@ class Cart extends Component {
           <div className="cart-section-left">
             <div className="shopping-cart-left-container">
               <div className="checkout-card-row">
+                <div></div>
                 <div
                   className="subtotal-inline-block"
                   style={{ fontWeight: 'bold' }}
@@ -55,7 +56,7 @@ class Cart extends Component {
               {this.props.cart !== null && this.props.cart.products ? (
                 this.props.cart.products.map((product) => (
                   <div key={product.id} className="checkout-card-row">
-                    <img className="cart-images" src={product.imageURL} />
+                    <img className="order-img" src={product.imageURL} />
                     <div className="subtotal-inline-block">{product.name}</div>
                     <div className="quantity-section">
                       <button

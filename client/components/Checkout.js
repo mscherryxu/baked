@@ -49,8 +49,7 @@ class Checkout extends React.Component {
     return (
       <div>
         <div>
-
-        <h2 style={{ textAlign: 'center' }}>Checkout</h2>
+          <h2 style={{ textAlign: 'center' }}>Checkout</h2>
         </div>
         <div>
           <h3 style={{ marginLeft: '2rem', fontWeight: 'lighter' }}>
@@ -246,7 +245,6 @@ class Checkout extends React.Component {
               }
               onInput={(e) => e.target.setCustomValidity('')}
             />
-            <br />
 
             <input
               className="shipping-info-field"

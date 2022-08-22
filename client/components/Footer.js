@@ -5,8 +5,8 @@ const Footer = () => (
   <footer>
     <div className="footer-container">
       <ul className="footer-list">
-        <li>
-          <p>👋</p>
+        <li className="footer-link">
+          <p className="footer-wave">👋</p>
         </li>
         <li className="footer-link">
           <Link

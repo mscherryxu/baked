@@ -28,24 +28,25 @@ class Cart extends Component {
     return (
       <div>
         <h2 style={{ textAlign: 'center' }}>Shopping Cart</h2>
-        <div className="cart-container div-container">
+        <div className="cart-container">
           <div className="cart-section-left">
             <div className="shopping-cart-left-container">
               <div className="checkout-card-row">
+                <div className="subtotal-inline-block"></div>
                 <div
-                  className="subtotal-inline-block"
+                  className="subtotal-inline-block product-header-section product-header-only"
                   style={{ fontWeight: 'bold' }}
                 >
                   Product
                 </div>
                 <div
-                  className="subtotal-inline-block"
+                  className="subtotal-inline-block quantity-header-section"
                   style={{ fontWeight: 'bold' }}
                 >
                   Quantity
                 </div>
                 <div
-                  className="subtotal-inline-block"
+                  className="subtotal-inline-block price-header-section"
                   style={{ fontWeight: 'bold' }}
                 >
                   Price
@@ -56,8 +57,10 @@ class Cart extends Component {
                 this.props.cart.products.map((product) => (
                   <div key={product.id} className="checkout-card-row">
                     <img className="cart-images" src={product.imageURL} />
-                    <div className="subtotal-inline-block">{product.name}</div>
-                    <div className="quantity-section">
+                    <div className="subtotal-inline-block product-header-section">
+                      {product.name}
+                    </div>
+                    <div className="quantity-section quantity-header-section">
                       <button
                         className="increment-btn"
                         onClick={() => this.props.updateCart(product, -1)}

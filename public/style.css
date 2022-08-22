@@ -25,11 +25,6 @@ body {
   width: auto;
 }
 
-.div-container {
-  height: 100vh;
-  overflow: hidden;
-}
-
 a {
   text-decoration: none;
 }

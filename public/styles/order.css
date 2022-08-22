@@ -54,3 +54,15 @@ a:hover {
   color: #d49090;
   transition-duration: .2s;
 }
+
+.name-header {
+  padding-left: 7rem;
+}
+
+.price-header {
+  padding-left: 4rem;
+}
+
+.quantity-header {
+  padding-left: 1rem;
+}

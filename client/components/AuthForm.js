@@ -1,14 +1,14 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { authenticate } from '../store';
+import React from "react";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+import { authenticate } from "../store";
 
 /**
  * COMPONENT
  */
 const AuthForm = (props) => {
   const { name, displayName, handleSubmit, error } = props;
-  console.log(props);
+
   return (
     <div className="form div-container">
       <form onSubmit={handleSubmit} name={name}>
@@ -47,8 +47,8 @@ const AuthForm = (props) => {
 
 const mapLogin = (state) => {
   return {
-    name: 'login',
-    displayName: 'Login',
+    name: "login",
+    displayName: "Login",
 
     error: state.auth.error,
   };
@@ -56,8 +56,8 @@ const mapLogin = (state) => {
 
 const mapSignup = (state) => {
   return {
-    name: 'signup',
-    displayName: 'Sign Up',
+    name: "signup",
+    displayName: "Sign Up",
     error: state.auth.error,
   };
 };

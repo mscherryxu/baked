@@ -6,7 +6,7 @@ As the project was not complete, we agreed to add our own changes we would want 
 
 ## Enjoy the baked goods, including cakes and cookies! Feel free to browse and enjoy the sweets!
 
-Check it out on Koyeb: baked-by-fullstack.koyeb.app/
+Check it out on Koyeb: https://baked-by-fullstack.koyeb.app/
 
 1. If you clone the repo, remember to open the directory in your terminal and run:
 

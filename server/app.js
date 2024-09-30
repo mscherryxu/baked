@@ -47,7 +47,3 @@ app.use((err, req, res, next) => {
     message: err.message || "Internal server error.",
   });
 });
-
-app.listen(port, () => {
-  console.log(`Baked app listening on port ${port}`);
-});

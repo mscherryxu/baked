@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export class Contact extends React.Component {
   render() {
@@ -17,7 +17,7 @@ export class Contact extends React.Component {
               <div className="sci">
                 <div className="github">
                   <Link
-                    to={{ pathname: 'https://github.com/nickyjhong' }}
+                    to={{ pathname: "https://github.com/nickyjhong" }}
                     target="_blank"
                     className="github"
                   >
@@ -27,7 +27,7 @@ export class Contact extends React.Component {
                 <div className="linkedin">
                   <Link
                     to={{
-                      pathname: 'https://www.linkedin.com/in/nicolejhong/',
+                      pathname: "https://www.linkedin.com/in/nicolejhong/",
                     }}
                     target="_blank"
                   >
@@ -49,7 +49,7 @@ export class Contact extends React.Component {
               <div className="sci">
                 <div className="github">
                   <Link
-                    to={{ pathname: 'https://github.com/mscherryxu' }}
+                    to={{ pathname: "https://github.com/mscherryxu" }}
                     target="_blank"
                   >
                     Github
@@ -58,7 +58,7 @@ export class Contact extends React.Component {
                 <div className="linkedin">
                   <Link
                     to={{
-                      pathname: 'https://www.linkedin.com/in/cherryxu-rdcdn/',
+                      pathname: "https://www.linkedin.com/in/cherryxu-rd/",
                     }}
                     target="_blank"
                     className="linkedin"
@@ -81,7 +81,7 @@ export class Contact extends React.Component {
               <div className="sci">
                 <div className="github">
                   <Link
-                    to={{ pathname: 'https://github.com/amyawong' }}
+                    to={{ pathname: "https://github.com/amyawong" }}
                     target="_blank"
                     className="github"
                   >
@@ -91,7 +91,7 @@ export class Contact extends React.Component {
                 <div className="linkedin">
                   <Link
                     to={{
-                      pathname: 'https://www.linkedin.com/in/amyawong/',
+                      pathname: "https://www.linkedin.com/in/amyawong/",
                     }}
                     target="_blank"
                   >
@@ -113,7 +113,7 @@ export class Contact extends React.Component {
               <div className="sci">
                 <div className="github">
                   <Link
-                    to={{ pathname: 'https://github.com/Ctomshack' }}
+                    to={{ pathname: "https://github.com/Ctomshack" }}
                     target="_blank"
                     className="github"
                   >
@@ -123,7 +123,7 @@ export class Contact extends React.Component {
                 <div className="linkedin">
                   <Link
                     to={{
-                      pathname: 'https://www.linkedin.com/in/christomshack/',
+                      pathname: "https://www.linkedin.com/in/christomshack/",
                     }}
                     target="_blank"
                     className="linkedin"
